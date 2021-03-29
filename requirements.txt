@@ -2,7 +2,7 @@ matplotlib
 requests
 pandas
 seaborn
-altair=
+altair
 shap
 yfinance
 numpy
