@@ -41,7 +41,6 @@ expander_bar.markdown("""
 col1 = st.sidebar
 col2, col3 = st.beta_columns((2,1))
 
-
 # Sidebar + Main panel
 col1.header('Input Options')
 
