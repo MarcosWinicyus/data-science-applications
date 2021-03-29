@@ -1,1 +1,1 @@
-web: sh seput.sh && streamlit run index.py
+web: sh setup.sh && streamlit run index.py
