@@ -1,6 +1,7 @@
 import os
-APP_DIR = os.getenv('APP_DIR','/')
-os.chdir(APP_DIR)
+APP_DIR = os.getenv('APP_DIR')
+if APP_DIR:
+    os.chdir(APP_DIR)
 
 from eda_basketball import basketball_app
 from eda_cryptocurrency import crypto_price_app
