@@ -1,0 +1,1 @@
+web: sh seput.sh && stream run index.py
