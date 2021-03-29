@@ -8,7 +8,11 @@ import requests
 import json
 import time
 import os
-os.chdir("/personal/study/streamlit/eda_cryptocurrency")
+from dotenv import load_dotenv
+
+load_dotenv()
+CRYPTO_DIR = os.getenv('CRYPTO_DIR','/eda_cryptocurrency') 
+os.chdir(CRYPTO_DIR)
 
 def view():
     cwd = os.getcwd()
