@@ -1,0 +1,13 @@
+matplotlib
+requests
+pandas
+seaborn
+altair
+shap
+yfinance
+numpy
+beautifulsoup4
+Pillow
+protobuf
+python-dotenv
+scikit_learn
