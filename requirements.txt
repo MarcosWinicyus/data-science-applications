@@ -1,6 +1,7 @@
 matplotlib
 requests
 pandas
+streamlit
 seaborn
 altair
 shap
