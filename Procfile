@@ -1,1 +1,1 @@
-web: sh seput.sh && stream run index.py
+web: sh seput.sh && streamlit run index.py
