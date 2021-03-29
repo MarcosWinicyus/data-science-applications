@@ -4,3 +4,4 @@ numpy
 scikit-learn
 python-decouple
 virtualenv
+matplotlib
