@@ -11,4 +11,5 @@ beautifulsoup4
 Pillow
 protobuf
 python-dotenv
+plotly
 scikit_learn
