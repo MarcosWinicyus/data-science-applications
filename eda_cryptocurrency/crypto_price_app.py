@@ -8,15 +8,15 @@ import requests
 import json
 import time
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
-CRYPTO_DIR = os.getenv('CRYPTO_DIR','/eda_cryptocurrency') 
-os.chdir(CRYPTO_DIR)
+# load_dotenv()
+# CRYPTO_DIR = os.getenv('CRYPTO_DIR','/eda_cryptocurrency') 
+# os.chdir(CRYPTO_DIR)
 
 def view():
-    cwd = os.getcwd()
-    st.write(cwd)
+    # cwd = os.getcwd()
+    # st.write(cwd)
     # Page layout
     ## Page expands to full width
     # st.set_page_config(layout="wide")

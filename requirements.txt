@@ -1,6 +1,7 @@
 matplotlib
 requests
 pandas
+streamlit
 seaborn
 altair
 shap
@@ -10,4 +11,5 @@ beautifulsoup4
 Pillow
 protobuf
 python-dotenv
+plotly
 scikit_learn
